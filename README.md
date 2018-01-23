@@ -1,3 +1,7 @@
+## **Note:** please bear with me for just a little bit. I've not updated the README yet, so some of the links will be outdated or wrong.
+
+-----
+
 # ACF - Role Selector Field
 
 This plugin adds a user role selector to ACF, allowing you to select one or more user roles using a customizable field.

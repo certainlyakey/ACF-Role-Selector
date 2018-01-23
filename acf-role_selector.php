@@ -1,16 +1,14 @@
 <?php
-
-/*
-Plugin Name: Advanced Custom Fields: User Role Selector
-Plugin URI: https://github.com/danielpataki/ACF-Role-Selector
-Description: A field for Advanced Custom Fields which allows you to select a user role
-Version: 3.0.2
-Author: Daniel Pataki
-Author URI: http://danielpataki.com
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
-
+/**
+ * ACF User Role Field
+ * Plugin URI: https://github.com/Vyygir/ACF-Role-Selector
+ * Description: A field for Advanced Custom Fields that allows you to select a user role
+ * Version: 3.1.0
+ * Author: Matt Royce
+ * Author URI: https://vyygir.me
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 add_action('plugins_loaded', 'acfurs_load_textdomain');
 /**
@@ -54,5 +52,3 @@ add_action('acf/register_fields', 'register_fields_role_selector');
 function register_fields_role_selector() {
 	include_once('acf-role_selector-v4.php');
 }
-
-?>
