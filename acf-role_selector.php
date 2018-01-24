@@ -1,9 +1,9 @@
 <?php
 /**
- * ACF User Role Field
+ * Plugin Name: ACF User Role Field
  * Plugin URI: https://github.com/Vyygir/ACF-Role-Selector
  * Description: A field for Advanced Custom Fields that allows you to select a user role
- * Version: 3.1.0
+ * Version: 3.1.2
  * Author: Matt Royce
  * Author URI: https://vyygir.me
  * License: GPLv2 or later

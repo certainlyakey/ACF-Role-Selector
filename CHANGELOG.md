@@ -1,3 +1,9 @@
+### 3.1.2 (2018-01-24)
+- Fix plugin headers so that it can actually be activated...
+
+### 3.1.1 (2018-01-23)
+- Fix PHP errors thrown in WP_Role
+
 ### 3.1.0 (2018-01-23)
 - Change the architecture of the plugin
 - Implement pull requests from original repository as fixes for issues
