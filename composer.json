@@ -1,0 +1,9 @@
+{
+  "name": "certainlyakey/ACF-Role-Selector",
+  "description": "This plugin adds a user role selector to ACF, allowing you to select one or more user roles using a customizable field",
+  "type": "wordpress-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
