@@ -1,6 +1,4 @@
-## **Note:** please bear with me for just a little bit. I've not updated the README yet, so some of the links will be outdated or wrong.
-
------
+This fork fixes some issues of the original plugin by @danielpataki (thanks to work done by @mattsims and @simmerer) and removes SVN structure (work of @Vyygir).
 
 # ACF - Role Selector Field
 
