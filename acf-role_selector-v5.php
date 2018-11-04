@@ -195,7 +195,9 @@ class acf_field_role_selector extends acf_field {
 		if( $field['return_value'] == 'object' && is_array( $value ) )
 		{
 			foreach( $value as $key => $role ) {
-				$value[$key] = get_role( $role->name );
+				if ( isset( $role->name ) ) {
+					$value[$key] = get_role( $role->name );
+				}
 			}
 		}
 		return $value;
